@@ -3,8 +3,11 @@
 GitHub Pages site for Creations Leyva.
 
 - **`/emotionphotography/`** — the e’MoTIoN Photography portfolio.
-  See [emotionphotography/README.md](emotionphotography/README.md) for how to add,
-  reorder and remove photographs.
+  - [emotionphotography/PROJECT.md](emotionphotography/PROJECT.md) — full project
+    notes: how it is built, the domain setup, and how to sync photographs.
+    **Start here.**
+  - [emotionphotography/README.md](emotionphotography/README.md) — how to add,
+    reorder and remove photographs.
 - **`/`** — redirects to the portfolio.
 
 ## Pointing creationsleyva.com at this site

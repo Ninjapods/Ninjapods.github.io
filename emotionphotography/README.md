@@ -6,6 +6,12 @@ Photography portfolio for **e’MoTIoN Photography** (Creations Leyva), built to
 Plain HTML, CSS and JavaScript — no framework. The only tooling is one small script
 that makes web-sized copies of your photographs.
 
+This file covers day-to-day photograph changes. For how the site is built, the
+domain and DNS setup, and how to sync from the Google Photos album, see
+**[PROJECT.md](PROJECT.md)**.
+
+To publish any change: `./publish.sh "what you changed"`
+
 ---
 
 ## Managing the gallery
