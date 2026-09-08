@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://creationsleyva.com/emotionphotography/sitemap.xml
