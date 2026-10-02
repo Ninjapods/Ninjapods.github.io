@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Creations Leyva</title>
+<meta name="description" content="How Creations Leyva and its XOLO marketplace tools handle information, including eBay account data accessed through eBay's OAuth authorization.">
+<link rel="canonical" href="https://creationsleyva.com/privacy">
+<style>
+  :root{--bg:#faf8f5;--ink:#171614;--muted:#5d5952;--accent:#8a6d46;--rule:#e6e0d6}
+  @media (prefers-color-scheme: dark){:root{--bg:#141311;--ink:#efebe4;--muted:#b3ada3;--accent:#c9a77a;--rule:#2c2925}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:48px 20px 64px}
+  h1{font-size:1.9rem;line-height:1.2;margin:0 0 6px;font-weight:600}
+  h2{font-size:1.1rem;margin:32px 0 8px;font-weight:600}
+  .meta{color:var(--muted);margin:0 0 28px}
+  ul{padding-left:1.2em}
+  li{margin:4px 0}
+  a{color:var(--accent)}
+  code{font-size:.9em;background:rgba(127,127,127,.12);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+  footer{border-top:1px solid var(--rule);margin-top:40px;padding-top:16px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="meta">Creations Leyva &middot; XOLO marketplace tools &middot; Effective October 2, 2026</p>
+
+<h2>Who we are</h2>
+<p>Creations Leyva is an independent online shop selling original printed apparel and handmade items. XOLO is the software we built to manage our own shop listings on the marketplaces where we sell, including eBay. This page explains what information XOLO uses, why, and the choices you have. Questions: <a href="mailto:hello@creationsleyva.com">hello@creationsleyva.com</a>.</p>
+
+<h2>How XOLO connects to eBay</h2>
+<p>XOLO connects to eBay only through eBay&rsquo;s official OAuth authorization. The account owner signs in on eBay&rsquo;s own website and decides whether to grant access; XOLO never sees or stores the eBay password. eBay then gives XOLO access tokens limited to the permissions that were approved. XOLO is used only with Creations Leyva&rsquo;s own eBay seller account and, while we test, eBay Sandbox test accounts.</p>
+
+<h2>What eBay information XOLO may access</h2>
+<p>Only what the account owner authorizes. XOLO currently requests two eBay permissions:</p>
+<ul>
+<li><strong>Inventory and listings</strong> (<code>sell.inventory</code>): the account&rsquo;s inventory items, offers and listings, such as titles, descriptions, photos, prices, quantities, item specifics, SKUs and listing status.</li>
+<li><strong>Account settings</strong> (<code>sell.account</code>): business policies (payment, shipping and returns), inventory locations and selling-program settings.</li>
+</ul>
+<p>XOLO also reads eBay&rsquo;s public category information with an application-level token, which involves no account data. XOLO does not request access to orders, buyers&rsquo; personal information or messages. If order access is ever needed, eBay will ask the account owner to approve it separately, and we will update this policy before using it.</p>
+
+<h2>Why we use it</h2>
+<ul>
+<li><strong>Listing management:</strong> creating, updating and ending our own listings.</li>
+<li><strong>Inventory management:</strong> keeping listed quantities in line with the stock we actually have, so the same item is not sold twice across our shops.</li>
+<li><strong>Order and commerce operations, where applicable:</strong> fulfilling and tracking our own sales, only if order access is granted in the future. It is not requested today.</li>
+<li><strong>Account and policy reconciliation:</strong> reading back our listings, business policies and locations to confirm they match what we intended, and to catch mistakes before buyers see them.</li>
+</ul>
+
+<h2>Retention and security</h2>
+<ul>
+<li>eBay tokens are kept only inside our automation platform. They are never written to logs, emails, records or source code, and every connection to eBay uses HTTPS.</li>
+<li>We keep records of what XOLO read and changed on our own listings (for example listing IDs, titles, prices and status) as business records, so we can check our work.</li>
+<li>eBay access tokens expire within hours. Once access is revoked, the stored tokens no longer work, and on request we delete them from our storage.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>We do not sell personal information, and we do not share eBay data with advertisers or data brokers. A few service providers help us run XOLO, namely the hosted automation platform it runs on and the AI tools we use to help write and check our listing text; they handle data to provide their service to us. We may disclose information if the law requires it.</p>
+
+<h2>Disconnecting XOLO</h2>
+<p>The eBay account owner can revoke XOLO&rsquo;s access at any time in eBay&rsquo;s account settings, under third-party app access. That ends XOLO&rsquo;s ability to read or change the account. You can also email <a href="mailto:hello@creationsleyva.com">hello@creationsleyva.com</a> and we will disconnect XOLO and delete its stored tokens.</p>
+
+<h2>Privacy requests</h2>
+<p>To ask what information we hold about you, or to have it corrected or deleted, email <a href="mailto:hello@creationsleyva.com">hello@creationsleyva.com</a>. We will reply, and we will delete what we hold unless the law requires us to keep it.</p>
+
+<h2>This website</h2>
+<p>creationsleyva.com has no sign-ins, forms, cookies or analytics. It is hosted on GitHub Pages, which processes visitors&rsquo; IP addresses to deliver and protect the site, and some of its pages load fonts from Google Fonts. If you email us, we use your message only to respond to you.</p>
+
+<h2>Changes</h2>
+<p>If our practices change, we will update this page and its effective date.</p>
+
+<footer>Creations Leyva &middot; <a href="mailto:hello@creationsleyva.com">hello@creationsleyva.com</a> &middot; <a href="https://creationsleyva.com/privacy">creationsleyva.com/privacy</a></footer>
+</main>
+</body>
+</html>
